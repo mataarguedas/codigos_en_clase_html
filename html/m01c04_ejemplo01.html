@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <form id="form-example">
+        <h1>Forms</h1>
+        <br>
+        <label for="txt-name">Name</label>
+        <input type="text" id="txt-name" name="txt-name" placeholder="Introduzca su nombre" required><br>
+        <label for="txt-email">Email</label>
+        <input type="email" id="txt-email" name="txt-email" placeholder="Introduzca su correo" required><br>
+        <label for="txt-password">Password</label>
+        <input type="password" id="txt-password" name="txt-password" placeholder="Introduzca su contraseña" required><br>
+        <label for="txt-fecha">Fecha de ingreso</label>
+        <input type="date" id="txt-date" name="txt-date">
+        <br><br>
+        <label for="txt-commentaries"></label>
+        <textarea name="text-commentaries" id="txt-commentaries" cols="30" rows="4" required></textarea>
+        <br>
+        <br>
+        <label for="txt-province"> Seleccione la provincia de residencia</label>
+        <br>
+        <select name="txt-province" id="txt-province">
+            <option value="San-Jose">San Jose</option>
+            <option value="Alajuela">Alajuela</option>
+            <option value="Heredia">Heredia</option>
+            <option value="Cartago">Cartago</option>
+            <option value="Guanacaste">Guanacaste</option>
+            <option value="Puntarenas">Puntarenas</option>
+            <option value="Limon">Limon</option>
+
+        </select>
+        <br><br>
+        <label for="txt-opt1"> Opcion 1</label>
+        <input type="radio" id="txt-opt1" name="txt-opt" value="txt-opt1">
+        <label for="txt-opt2"> Opcion 2</label>
+        <input type="radio" id="txt-opt2" name="txt-opt" value="txt-opt2">
+        <label for="txt-opt3"> Opcion 3</label>
+        <input type="radio" id="txt-opt3" name="txt-opt" value="txt-opt3">
+        <br><br>
+        <label for="chk-1">Seleccion 1</label>
+        <input type="checkbox" name="opt2" id="chk-1" value="opc4">
+        <label for="chk-2">Seleccion 2</label>
+        <input type="checkbox" name="opt2" id="chk-2" value="opc5">
+        <label for="chk-3">Seleccion 3</label>
+        <input type="checkbox" name="opt2" id="chk-3" value="opc6">
+        <br>
+        <label for="file">Select file</label>
+        <input type="file" id="file" name="file">
+        <input type="submit" value="Load file"> <br>
+        <input type="submit" name="btn-send" id="btn-send" value="Send">
+        <input type="reset" value="clean">
+    </form>
+    </body>
+</html>

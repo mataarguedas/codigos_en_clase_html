@@ -1,0 +1,22 @@
+.custom-card{
+ transition: transform 0.5s, box-shadow 0.5s;   
+}
+
+.custom-card:hover{
+    transform:translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.btn-primary{
+    --bs-btn-bg: #282a2d;
+    --bs-btn-hover-border-color: #b5b8bd;
+}
+
+.bg-primary{
+    background-color:#282a2d;
+}
+body{
+    background-color: #282a2d !important;
+}
+.progress-bar{
+    background-color: rgba(149, 19, 224, 0.699);
+}

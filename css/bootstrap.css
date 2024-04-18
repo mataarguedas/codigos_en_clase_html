@@ -1,0 +1,19 @@
+.list-group {
+    flex-direction: row;
+}
+.profilePic{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  }
+
+.list-group-item1{
+    border-radius: 50px;
+}
+  

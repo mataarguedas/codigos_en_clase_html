@@ -1,0 +1,44 @@
+#trafficLight{
+    background-color: rgb(183, 185, 17);
+}
+
+.trafficSign{
+    width: 120px;
+    height: 200px;
+    border: solid black;
+    border-color: rgb(7, 7, 3);
+    border-width: 5px;
+    border-radius: 20%;
+    align-items: center;
+}
+
+.light{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 1.5px black ;
+    margin-bottom: 12px;
+    position:relative;
+    top: 10px;
+    left: 35px;
+    cursor: pointer;
+}
+#light1{
+    background-color: rgb(9, 146, 9);
+
+}
+#light1:hover{
+    background-color: rgb(17, 224, 17);
+}
+#light2{
+    background-color: rgb(207, 207, 19);
+}
+#light2:hover{
+    background-color: rgb(235, 235, 15);
+}
+#light3{
+    background-color: rgb(160, 8, 8);
+}
+#light3:hover{
+    background-color: red;
+}

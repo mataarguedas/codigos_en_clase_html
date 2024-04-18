@@ -1,0 +1,58 @@
+.menu-navigation{
+    display: block;
+}
+
+.menu-navigation input[type="checkbox"], .menu-navigation .menu{
+    display: none;
+}
+
+
+.menu-navigation label {
+    display: none;
+    cursor:pointer;
+}
+@media(max-width:600px){
+    .menu-navigation label{
+        display: block;
+    }
+    .menu-navigation input[type="checkbox"]:checked + .menu{
+        display: block;
+    }
+    .menu-navigation .menu a{
+        display: block;
+        background-color: #ddd;
+        padding: 10px;
+        border-bottom: 1px solid #bbb;
+    }
+}
+.container-image{
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+    position: relative;
+}
+.container-image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*ajustar la imagen para cubrir el contenedor*/
+}
+
+.visible-mobile-element{
+    display:none;
+}
+
+.visible-desktop-element{
+    display:block;
+}
+
+@media(max-width: 600px){
+    .visible-mobile-element{
+        display: block;
+    }
+    .visible-desktop-element{
+        display: none;
+    }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: rgb(230, 129, 154);
+        }
+        .container {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+    }
+        .circle-img {
+        position: absolute;
+        top: 30%; /* Adjust the desired y position */
+        left: 30%; /* Adjust the desired x position */
+        transform: translate(-50%, -50%);
+        width: 100px; /* Adjust width and height as needed */
+        height: 100px;
+        border-radius: 50%; /* Makes the image circular */
+        object-fit: cover; /* Ensures the image covers the circular container */
+    }
+        .text-1{
+            position: relative;
+            top: 50px; /* Move 20 pixels down from its original position */
+            left: 250px; /* Move 50 pixels to the right from its original position */
+
+        } 
+        .image-1 {
+            position: relative;
+            top: 100px; /* Move 20 pixels down from its original position */
+            left: 250px; /* Move 50 pixels to the right from its original position */
+    }  
+    </style>
+</head>
+<body>
+    <div id="title" class="text-1">
+        <p>
+            Emmanuel Mata Arguedas <br>
+            Web Developer
+        </p>
+        <img src="photo.jpg" alt="profileImg" class="circle-img">
+    </div>
+    <br>
+    <div id="images" class="images-1">
+        <img src="png-transparent-react-javascript-angularjs-ionic-github-text-logo-symmetry-thumbnail.png" alt="react image" width="100px">
+        <img src="png-clipart-node-js-logo-node-js-javascript-web-application-express-js-computer-software-others-miscellaneous-text-thumbnail.png" alt="nodeJS image" width="100px">
+    </div>
+    
+</body>
+</html>

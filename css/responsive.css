@@ -1,0 +1,60 @@
+/*body{
+    background-color: lightblue;
+}
+@media(max-width: 600px){
+    body{
+        background-color: violet;
+    }
+} */
+/*Uso de Media Queries para cambios en el Design*/
+.content{
+    background-color: lightblue ;
+    padding: 20px;
+    font-size: 20px;
+}
+ 
+@media(max-width: 600px){
+    .content{
+        background-color: lightcoral;
+        font-size: 16px;
+    }
+    .container-columns{
+        flex-direction: column;
+    }
+}
+/*Layout Flexible con Flex Box*/
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container div{
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+}
+
+.responsiveImage{
+    max-width: 100px;
+    height: auto;
+}
+.scalable-text{
+    font-size: 2vw;
+}
+
+/*Grid Layout design*/
+
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px
+}
+
+.container-columns{
+    display:flex;
+}
+.column{
+    flex:1;
+    padding: 20px;
+    border: 1px solid #ccc;
+}

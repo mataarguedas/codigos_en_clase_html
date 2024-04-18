@@ -1,0 +1,36 @@
+div{
+    border: solid 1.5px black;
+    margin-bottom: 3px;
+    text-align: center;
+}
+.sect-01{
+    width: 300px;
+    height:220px;
+}
+.sect-02{
+    width: 300px;
+    height:200px;
+}
+.sect-03{
+    width: 300px;
+    height:200px;
+    
+}
+.subSect-01{
+    width:40px;
+    height: 40px;
+    background-color: blueviolet;
+}
+.subSect-02{
+    width:40px;
+    height: 40px;
+}
+.subSect-03{
+    width:40px;
+    height: 40px;
+}
+#sub-sub-01{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
